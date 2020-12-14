@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "interRomanLatin";
+    src: url("/fonts/Inter-roman-latin.var.woff2");
+}
+
+html {
+    font-family: "interRomanLatin", "Bitstream Vera Serif", serif;
+}
