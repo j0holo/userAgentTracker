@@ -5,7 +5,9 @@
         <form class="mb-8" action="{{ route('home') }}" method="get">
             <div class="space-y-2">
                 <input class="border-2 rounded border-gray-400 block" type="text" name="uri" id="" placeholder="URI">
+                <label for="uri">Wildcard is available wit the <code>%</code> character.</label>
                 <input class="border-2 rounded border-gray-400 block" type="text" name="user_agent" id="" placeholder="User-Agent">
+                <label for="user_agent">Wildcard is available wit the <code>%</code> character.</label>
                 <input class="border-2 rounded border-gray-400 block" type="text" name="status_code" id="" placeholder="Status code">
                 <div class="block">
                     <label for="json">JSON response</label>

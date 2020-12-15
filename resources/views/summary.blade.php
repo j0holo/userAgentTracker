@@ -73,7 +73,7 @@
                     </tr>
                     </thead>
                     <tbody>
-                    @foreach($topTenUserAgents as $uri)
+                    @foreach($topTenUserAgents as $user_agent)
                         <tr>
                             <td class="border-collapse border border-gray-400">{{ $user_agent->user_agent }}</td>
                             <td class="border-collapse border border-gray-400 ">{{ $user_agent->count }}</td>
